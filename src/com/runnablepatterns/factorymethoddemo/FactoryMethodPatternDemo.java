@@ -19,7 +19,7 @@ public class FactoryMethodPatternDemo {
 		// create specific store
 		LaptopStore usaStore = new LaptopStoreUSA();
 		
-		System.out.println("Processing laptop in USA started \n");
+		System.out.println("\nProcessing laptop in USA started \n");
 		// process the specific Laptop
 		usaStore.processLaptop(LaptopTypeEnum.MEDIUM);
 		
